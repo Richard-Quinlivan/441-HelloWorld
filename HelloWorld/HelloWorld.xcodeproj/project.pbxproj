@@ -15,6 +15,8 @@
 		353CED1F25DD77650072D502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353CED1D25DD77650072D502 /* LaunchScreen.storyboard */; };
 		353CED2A25DD77650072D502 /* HelloWOrldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CED2925DD77650072D502 /* HelloWOrldTests.swift */; };
 		353CED3525DD77650072D502 /* HelloWOrldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CED3425DD77650072D502 /* HelloWOrldUITests.swift */; };
+		35A9E76925DF4F4B00D0F146 /* hello_there.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35A9E76725DF4F4B00D0F146 /* hello_there.jpg */; };
+		35A9E76A25DF4F4B00D0F146 /* general_kenobi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35A9E76825DF4F4B00D0F146 /* general_kenobi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		353CED3025DD77650072D502 /* HelloWOrldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWOrldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		353CED3425DD77650072D502 /* HelloWOrldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWOrldUITests.swift; sourceTree = "<group>"; };
 		353CED3625DD77650072D502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A9E76725DF4F4B00D0F146 /* hello_there.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hello_there.jpg; sourceTree = "<group>"; };
+		35A9E76825DF4F4B00D0F146 /* general_kenobi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = general_kenobi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		353CED1125DD77630072D502 /* HelloWOrld */ = {
 			isa = PBXGroup;
 			children = (
+				35A9E76825DF4F4B00D0F146 /* general_kenobi.jpg */,
+				35A9E76725DF4F4B00D0F146 /* hello_there.jpg */,
 				353CED1225DD77630072D502 /* AppDelegate.swift */,
 				353CED1425DD77630072D502 /* SceneDelegate.swift */,
 				353CED1625DD77630072D502 /* ViewController.swift */,
@@ -232,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				353CED1F25DD77650072D502 /* LaunchScreen.storyboard in Resources */,
+				35A9E76925DF4F4B00D0F146 /* hello_there.jpg in Resources */,
+				35A9E76A25DF4F4B00D0F146 /* general_kenobi.jpg in Resources */,
 				353CED1C25DD77650072D502 /* Assets.xcassets in Resources */,
 				353CED1A25DD77630072D502 /* Main.storyboard in Resources */,
 			);
@@ -443,10 +451,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CohortStudio.HelloWOrld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CohortStudios.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,10 +470,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CohortStudio.HelloWOrld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CohortStudios.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
